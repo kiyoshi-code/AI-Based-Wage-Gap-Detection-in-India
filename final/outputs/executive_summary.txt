@@ -9,34 +9,34 @@ Industries: 15 major sectors
 KEY FINDINGS:
 
 1. UNDERPAYMENT CRISIS
-   - 5,357 workers (53.6%) earn below minimum wage
-   - Average wage gap: ₹519.25 per month
+   - 5,321 workers (53.2%) earn below minimum wage
+   - Average wage gap: ₹362.06 per month
 
 2. GENDER INEQUALITY
-   - Gender wage gap: ₹3244.48/month
-   - Women earn ~15.1% less than men
+   - Gender wage gap: ₹3411.86/month
+   - Women earn ~16.0% less than men
 
 3. INDUSTRY DISPARITIES
-   - Most affected: Metals (57.1% underpaid)
-   - Least affected: Food Processing (50.6% underpaid)
+   - Most affected: Food Processing (58.0% underpaid)
+   - Least affected: Chemicals (50.1% underpaid)
 
 4. EDUCATION IMPACT
    - Higher education correlates with better wages
-   - PhD holders earn 4.2x more than illiterate workers
+   - PhD holders earn 4.3x more than illiterate workers
 
 
 MACHINE LEARNING RESULTS:
-Best Model: Logistic Regression
-Accuracy: 94.25%
-Precision: 0.9314
-Recall: 0.9636
-F1-Score: 0.9472
+Best Model: Gradient Boosting
+Accuracy: 94.35%
+Precision: 0.9577
+Recall: 0.9352
+F1-Score: 0.9463
 
 
 Model Comparison:
-  1. Logistic Regression: 0.9425
-  2. Gradient Boosting: 0.9415
-  3. Ensemble (RF+GB): 0.9410
+  1. Gradient Boosting: 0.9435
+  2. Ensemble (RF+GB): 0.9380
+  3. Logistic Regression: 0.9370
 
 
 POLICY RECOMMENDATIONS:
@@ -61,7 +61,7 @@ EXPECTED IMPACT:
 With recommended policies:
   • 45-52% reduction in wage gaps
   • Direct wage increase for 10,000 workers
-  • Economic value: ₹-5192+ crores/month
+  • Economic value: ₹-3621+ crores/month
   • Implementation cost: 14-17% of wage budget
 
 
@@ -70,5 +70,5 @@ This analysis identifies systematic wage disparities affecting millions of
 Indian workers. With targeted policy interventions using identified quantum
 patterns, significant improvements in worker welfare are achievable.
 
-The Logistic Regression model (94.25% accuracy) reliably
+The Gradient Boosting model (94.35% accuracy) reliably
 identifies underpaid workers, enabling evidence-based policymaking.
